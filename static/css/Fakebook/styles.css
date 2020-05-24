@@ -1,0 +1,26 @@
+body {
+  background-color: lightgreen;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+
+button { 
+color: white;
+background-color:red;
+height:40px;
+width:110px;
+border:1px red;	
+border-radius: 5px;
+
+
+}
+
+#section {
+	position: absolute;
+	right: 45%
+
+}
+

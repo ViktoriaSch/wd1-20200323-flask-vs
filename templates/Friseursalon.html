@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hairdresser Hans</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/Friseursalon/styleshairdresser.css">
+
+           <!--Bootstrap Imports -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Hairdresser Hans</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+
+       <li class="nav-item">
+         <a class="nav-link" href="#">Our service</a>
+        </li>
+
+      <li class="nav-item">
+         <a class="nav-link" href="#">Appointment</a>
+      </li>
+
+      <li class="nav-item">
+         <a class="nav-link" href="#">FAQ</a>
+      </li>
+
+      <li class=""nav-link">
+        <a class="nav-link" href="#">About us</a>
+        </li>
+
+    </ul>
+
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+</header>
+    <!-- Karussel -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm" id="karagap">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active imagesize">
+                        <img src="/static/img/Friseursalon/Studio1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item imagesize">
+                        <img src="/static/img/Friseursalon/Studio2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                 </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Card deck -->
+    <div class="container">
+        <div class="col-sm" id="karagap">
+            <div class="middle  "><h1>Our Services</h1></div>
+        </div>
+        <div class="row">
+            <div class="col-sm" id="karagap">
+                <div class="card-deck">
+                    <div class="card">
+                        <div class="card-header">Styling</div>
+                        <img src="/static/img/Friseursalon/Card1.jpg" class="card-img" alt=Styling">
+                    </div>
+                    <div class="card">
+                        <div class="card-header">Haircuts</div>
+                        <img src="/static/img/Friseursalon/Card3.jpg" class="card-img" alt=Haircuts">
+                    </div>
+                    <div class="card">
+                        <div class="card-header">Coloring</div>
+                        <img src="/static/img/Friseursalon/Card2.jpg" class="card-img" alt="Coloring">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Appointment form -->
+    </div>
+<br>
+<div class="middle  "><h1>Appointment</h1></div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+            <div class="row padding-60">
+                <div class="col-md-6">
+                    <form class="contact">
+                        <input class="form-control" type="text" placeholder="Name">
+                        <br>
+                        <input class="form-control" type="text" placeholder="Email">
+                        <br>
+                        <input class="form-control" type="text" placeholder="Date">
+                        <br>
+                        <textarea class="form-control" rows="3">Other info (haircut wishes etc.)</textarea>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">I agree that Hans is the best hairdresser</label>
+                        </div>
+                        <div class="col text-center">
+                            <button type="submit" id="button">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            </form>
+        </div>
+        <div class="col-sm">
+            <!--Table -->
+            <table class="table table-bordered table-light">
+                <thead>
+                <tr>
+                    <th scope="col">Wochentage</th>
+                    <th scope="col">Öffnungszeiten</th>
+
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">Montag</th>
+                    <td>10:00-18:00 Uhr</td>
+                </tr>
+                <tr>
+                    <th scope="row">Dienstag</th>
+                    <td>10:00-18:00 Uhr</td>
+                </tr>
+                <tr>
+                    <th scope="row">Mittwoch</th>
+                    <td>geschlossen</td>
+                </tr>
+                <tr>
+                    <th scope="row">Donnerstag</th>
+                    <td>10:00-18:00 Uhr</td>
+                </tr>
+                <tr>
+                    <th scope="row">Freitag</th>
+                    <td>10:00-18:00 Uhr</td>
+                </tr>
+                <tr>
+                    <th scope="row">Samstag & Sonntag</th>
+                    <td>geschlossen</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<!-- FAQ -->
+<div class="col-sm" id="karagap">
+<div class="middle  "><h1>FAQ</h1></div>
+    <div class="accordion" id="accordionExample">
+    <div class="card">
+        <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                        aria-expanded="true" aria-controls="collapseOne">
+                    How often do you really need a haircut?
+                </button>
+            </h2>
+        </div>
+
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+                We recommend only three to four times a year
+                just to dust the ends and touch up layers.
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    How many inches should I cut off my hair?
+                </button>
+            </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+                The first trim depends on damage. All thinning ends ideally should
+                be cut off, this could be an inch or it could be 5 inches. Naturally
+                it is a very personal decision if the hair cut could result in a significant
+                appearance change, in which case you can be more conservative and just do
+                several small chops.
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Why do hairdressers cut hair wet?
+                </button>
+            </h2>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+                Wet hair also has a greater elasticity than dry hair. ... It is for this
+                reason many hairdressers have a preference for cutting curly hair dry.
+                Trimming, low densities and finer textures are also good conditions for
+                dry cutting as they require less control and may be more easily handled.
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <h4>Kontakt</h4>
+                <p>Hairdresser Hans</p>
+                <p>Hackenstraße, 1210 Wien</p>
+                <p>Telefon: (+43) 0664/ 1234567</p>
+                <p>hans@hairdresser.at</p>
+            </div>
+            <div class="col-sm">
+                <img src="/static/img/Friseursalon/logo.jpg" style="width:350px;">
+            </div>
+            <div class="col-sm" align="right">
+                <h4>Navigation</h4>
+                    <nav class="nav-flex-column">
+                        <a class="nav-link" href="#">Our service
+                        <a class="nav-link" href="#">Appointment
+                        <a class="nav-link" href="#">FAQ
+                        <a class="nav-link" href="#">About us
+                    </nav>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

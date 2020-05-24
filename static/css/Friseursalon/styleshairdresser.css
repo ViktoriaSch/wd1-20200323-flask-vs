@@ -1,0 +1,29 @@
+.imagesize {
+    height: 500px;
+    width: 600px;
+}
+
+#karagap{
+    margin-top:45px;
+}
+
+.middle{
+    text-align: center;
+}
+
+.card-header{
+    text-align: center;
+}
+.card-img{
+    height:300px;
+    width 150px;
+}
+
+.col-sm{
+    margin-top:50px;
+}
+
+#button{
+    text-align: center;
+    width 150px;
+}
